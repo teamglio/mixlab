@@ -24,10 +24,10 @@ get '/game' do
 		player = Player.create(:mxit_user_id => mxit_user.user_id)
 		player.elements.push(Element.first(:name => 'water'),Element.first(:name => 'fire'),Element.first(:name => 'earth'),Element.first(:name => 'air'))
 		player.save
+		erb :help
+	else
+		erb :gameboard	
 	end
-
-	erb :gameboard
-
 end
 
 get '/game/:element' do
@@ -57,9 +57,8 @@ get '/game/:element' do
 	erb :gameboard
 end
 
-get '/players' do
-	FileUtils.copy('db/players.yml','public/players.yml')
-	redirect to '/players.yml'
+get '/help' do
+	erb :help
 end
 
 get '/feedback' do
@@ -76,6 +75,11 @@ post '/feedback' do
 	  :body_text => params['feedback'] + ' - ' + player.mxit_user_id
 	  )
 	erb "Thanks! <a href='/'>Back</a>" 
+end
+
+get '/players' do
+	FileUtils.copy('db/players.yml','public/players.yml')
+	redirect to '/players.yml'
 end
 
 helpers do
