@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'aws-sdk'
+require 'rest-client'
 require_relative 'lib/core.rb'
 
 enable :sessions
@@ -9,6 +10,10 @@ configure do
 	  :access_key_id => ENV['AWS_KEY'],
 	  :secret_access_key => ENV['AWS_SECRET']
 	)
+end
+
+before do
+	@mixup_ad = RestClient.get 'http://serve.mixup.hapnic.com/9502655'
 end
 
 get '/' do
