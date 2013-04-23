@@ -84,7 +84,7 @@ end
 
 get '/players' do
 	@players = Player.all
-	erb :players
+	erb :players, :layout => nil
 end
 
 helpers do
