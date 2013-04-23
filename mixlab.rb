@@ -83,8 +83,7 @@ post '/feedback' do
 end
 
 get '/players' do
-	FileUtils.copy('db/players.yml','public/players.yml')
-	redirect to '/players.yml'
+	erb Player.all.inspect
 end
 
 helpers do
