@@ -1,8 +1,5 @@
 require 'data_mapper'
 
-#DataMapper.setup(:default, "yaml:db")
-#DataMapper.setup(:default, "sqlite:///home/emile/Dropbox/Projects/Mxit/Code/mixlab/db/ml.db")
-#DataMapper.setup(:default, 'postgres://postgres:paashaas@localhost/mixlab')
 DataMapper.setup(:default, ENV['DATABASE_URL'])
 
 require_relative 'element'

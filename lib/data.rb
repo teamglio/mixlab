@@ -9,12 +9,12 @@ class Data
 		start_time = Time.now
 		DataMapper.auto_migrate!
 
-		CSV.foreach('db/la.csv', :headers => true) do |r|
+		CSV.foreach('data/la.csv', :headers => true) do |r|
 			e = Element.create(:name => r['element name'])
 			e.save
 		end
 
-		CSV.foreach('db/la.csv', :headers => true) do |r|
+		CSV.foreach('data/la.csv', :headers => true) do |r|
 			c = Composition.create(:primary_element => Element.all(:name => r['element a1 name']).first, :secondary_element => Element.all(:name => r['element a2 name']).first, :result_element => Element.all(:name => r['element name']).first)
 			c.save
 
