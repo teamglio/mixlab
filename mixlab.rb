@@ -83,7 +83,8 @@ post '/feedback' do
 end
 
 get '/players' do
-	erb Player.all.inspect
+	@players = Player.all
+	erb :players
 end
 
 helpers do
