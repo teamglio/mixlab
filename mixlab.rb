@@ -76,7 +76,7 @@ post '/feedback' do
 	ses.send_email(
 	  :subject => 'MixLab feedback',
 	  :from => 'emile@silvis.co.za',
-	  :to => 'emile@silvis.co.za',
+	  :to => 'emile@silvis.co.za, stephanus@glio.co.za',
 	  :body_text => params['feedback'] + ' - ' + player.mxit_user_id
 	  )
 	erb "Thanks! <a href='/'>Back</a>" 
