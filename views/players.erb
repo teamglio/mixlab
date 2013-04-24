@@ -1,5 +1,5 @@
 <div>
 	<% @players.each do |player| %>
-		<%= player.id %>. <%= player.mxit_user_id %><br />
+		<%= player.id %>. <%= player.mxit_user_id %> (<%= player.discoveries.size %>)<br />
 	<% end %> 
 </div>
