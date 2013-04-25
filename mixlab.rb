@@ -56,6 +56,7 @@ get '/game/:element' do
 		else
 			@result = session[:element1] + ' + ' + session[:element2] + ' = ' + "<b>nothing</b>"
 			session[:element1] = nil
+			@discovery_status = "Woops, that doesn't make anything. Try again."
 		end
 	end
 	
