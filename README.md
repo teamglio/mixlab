@@ -1,3 +1,3 @@
 # MixLab
 
-MixLab is a clone of [Little Alchemy](http://littlealchemy.com/) for the [Mxit](https://www.mxit.com) platform.
+MixLab is a game inspired by [Little Alchemy](http://littlealchemy.com/) for the [Mxit](https://www.mxit.com) platform.
