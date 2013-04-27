@@ -1,7 +1,7 @@
 require 'data_mapper'
 
-DataMapper.setup(:default, ENV['DATABASE_URL'])
-#DataMapper.setup(:default, 'postgres://postgres:paashaas@localhost/mixlab')
+#DataMapper.setup(:default, ENV['DATABASE_URL'])
+DataMapper.setup(:default, 'postgres://postgres:paashaas@localhost/mixlab')
 
 require_relative 'element'
 require_relative 'composition'

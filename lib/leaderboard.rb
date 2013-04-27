@@ -13,7 +13,10 @@ class Leaderboard
 			end 
 		end
 		player_discoveries.sort_by {|key,value| value}.reverse![0..9].each do |key, value|
-			top_ten[MxitUserAPI.get_user_profile(key)['DisplayName']] = value
+			user_profile = MxitUserAPI.get_user_profile(key)
+			if user_profile 
+				top_ten[user_profile['DisplayName']] = value
+			end
 		end
 		top_ten
 	end
