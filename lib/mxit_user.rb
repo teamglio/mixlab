@@ -4,7 +4,7 @@ class MxitUser
     @@mock_mxit_headers = {
         "HTTP_X_MXIT_LOCATION"=>"ZA,,06,,,Germiston,83354,81131486,7efb4d", #
         "HTTP_X_MXIT_LOGIN"=>"emilesilvis7", #m41162520002
-        "HTTP_X_MXIT_USERID_R"=>"web-client", #
+        "HTTP_X_MXIT_USERID_R"=>"web-client4", #
         "HTTP_X_MXIT_HOME"=>"http://www.glio.co.za", 
         "HTTP_X_MXIT_NICK"=>"Emile+Silvis", #
         #"HTTP_X_MXIT_USER_INPUT"=>"This+is+my+message+", #

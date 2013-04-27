@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'aws-sdk'
 require 'rest-client'
+require 'json'
 require_relative 'lib/core.rb'
 
 enable :sessions
@@ -61,6 +62,10 @@ get '/game/:element' do
 	end
 	
 	erb :gameboard
+end
+
+get '/leaderboard/top_ten' do
+	erb :top_ten
 end
 
 get '/help' do
