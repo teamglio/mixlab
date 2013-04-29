@@ -6,6 +6,7 @@ require 'aws-sdk'
 require 'rest-client'
 require 'json'
 require 'rufus-scheduler'
+require 'newrelic_rpm'
 require_relative 'lib/core.rb'
 
 enable :sessions
