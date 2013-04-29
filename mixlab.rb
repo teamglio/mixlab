@@ -99,7 +99,11 @@ end
 
 get '/players' do
 	@players = Player.all
-	erb :players, :layout => nil
+	File.open('public/players.json','w+') do |file|
+		file.write(@players.to_json)
+	end
+	redirect to 'players.json'		
+	#erb :players, :layout => nil
 end
 
 helpers do

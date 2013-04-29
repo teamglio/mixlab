@@ -17,8 +17,8 @@ class Leaderboard
 			end
 		end
 
-		File.open('public/leaderboard_top_ten.json','w+') do |f|
-			f.write(top_ten.to_json)
+		File.open('public/leaderboard_top_ten.json','w+') do |file|
+			file.write(top_ten.to_json)
 		end	
 	end
 
