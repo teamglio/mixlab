@@ -2,9 +2,7 @@ require 'base64'
 
 class Leaderboard
 
-	attr_reader :leader_board
-
-	def self.top_ten
+	def self.build_top_ten
 		player_discoveries = Hash.new
 		top_ten = Hash.new
 		Player.all.each do |player|
@@ -18,6 +16,13 @@ class Leaderboard
 				top_ten[user_profile['DisplayName']] = value
 			end
 		end
-		top_ten
+
+		File.open('public/leaderboard_top_ten.json','w+') do |f|
+			f.write(top_ten.to_json)
+		end	
+	end
+
+	def self.top_ten
+		JSON.load(File.open('public/leaderboard_top_ten.json','r'))
 	end
 end

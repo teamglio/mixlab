@@ -4,6 +4,7 @@
 	<% Leaderboard.top_ten.each do |key, value| %>
 			<li><%= key %> - <%= value %> discoveries </li>
 	<% end %>
-	</ol>	
+	</ol>
+	<p>This leaderboard is refreshed every 15 minutes.</p>	
 </div>
 <a href='<%= url '/game' %>'>Back</a>

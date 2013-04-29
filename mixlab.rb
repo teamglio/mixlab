@@ -5,6 +5,7 @@ require 'sinatra'
 require 'aws-sdk'
 require 'rest-client'
 require 'json'
+require 'rufus-scheduler'
 require_relative 'lib/core.rb'
 
 enable :sessions
@@ -14,6 +15,12 @@ configure do
 	  :access_key_id => ENV['AWS_KEY'],
 	  :secret_access_key => ENV['AWS_SECRET']
 	)
+
+	scheduler = Rufus::Scheduler.start_new
+
+	scheduler.every '15m' do
+		Leaderboard.build_top_ten
+	end		
 end
 
 before do
@@ -25,7 +32,6 @@ get '/' do
 end
 
 get '/game' do
-
 	player = get_player
 
 	if player.nil?
