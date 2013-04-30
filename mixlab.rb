@@ -78,6 +78,10 @@ get '/leaderboard/top_ten' do
 	erb :top_ten
 end
 
+get '/hint' do
+	erb :hint
+end
+
 get '/help' do
 	erb :help
 end
