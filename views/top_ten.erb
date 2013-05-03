@@ -1,5 +1,10 @@
 <h1>Leaderboard: Top Ten</h1>	
 <div>
-Hi MixLabbers, we're building a better leaderboard for you -- please be patient! :)
+	<ol>
+	<% LeaderboardEntry.all.each do |entry| %>
+			<li><%= entry.nickname %> - <%= entry.discoveries %> discoveries </li>
+	<% end %>
+	</ol>
+	<p>This leaderboard is refreshed every 15 minutes.</p>	
 </div>
 <a href='<%= url '/game' %>'>Back</a>

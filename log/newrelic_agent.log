@@ -119,3 +119,303 @@
 [04/30/13 12:35:29 +0200 emile-ubuntu (5965)] INFO : Installing Sinatra instrumentation
 [04/30/13 12:35:29 +0200 emile-ubuntu (5965)] INFO : Installing Net instrumentation
 [04/30/13 12:35:29 +0200 emile-ubuntu (5965)] INFO : Finished instrumentation
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : Environment: development
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : No known dispatcher detected.
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : Installing Net instrumentation
+[05/03/13 07:02:28 +0200 emile-ubuntu (13855)] INFO : Finished instrumentation
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : Environment: development
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : No known dispatcher detected.
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : Installing Net instrumentation
+[05/03/13 07:03:18 +0200 emile-ubuntu (13864)] INFO : Finished instrumentation
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : Environment: development
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : No known dispatcher detected.
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : Installing Net instrumentation
+[05/03/13 07:04:51 +0200 emile-ubuntu (13892)] INFO : Finished instrumentation
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : Environment: development
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : Dispatcher: thin
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : Installing Net instrumentation
+[05/03/13 07:05:45 +0200 emile-ubuntu (13949)] INFO : Finished instrumentation
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : Environment: development
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : No known dispatcher detected.
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : Installing Net instrumentation
+[05/03/13 07:06:15 +0200 emile-ubuntu (13955)] INFO : Finished instrumentation
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : Environment: development
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : No known dispatcher detected.
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : Installing Net instrumentation
+[05/03/13 07:06:29 +0200 emile-ubuntu (13965)] INFO : Finished instrumentation
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : Environment: development
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : No known dispatcher detected.
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : Installing Net instrumentation
+[05/03/13 07:06:42 +0200 emile-ubuntu (13970)] INFO : Finished instrumentation
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : Environment: development
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : No known dispatcher detected.
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : Installing Net instrumentation
+[05/03/13 07:07:15 +0200 emile-ubuntu (13979)] INFO : Finished instrumentation
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : Environment: development
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : No known dispatcher detected.
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : Installing Net instrumentation
+[05/03/13 07:08:12 +0200 emile-ubuntu (13988)] INFO : Finished instrumentation
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : Environment: development
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : No known dispatcher detected.
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : Installing Net instrumentation
+[05/03/13 07:08:48 +0200 emile-ubuntu (13995)] INFO : Finished instrumentation
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : Environment: development
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : No known dispatcher detected.
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : Installing Net instrumentation
+[05/03/13 07:09:06 +0200 emile-ubuntu (14000)] INFO : Finished instrumentation
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : Environment: development
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : No known dispatcher detected.
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : Installing Net instrumentation
+[05/03/13 07:09:24 +0200 emile-ubuntu (14006)] INFO : Finished instrumentation
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : Environment: development
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : No known dispatcher detected.
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : Installing Net instrumentation
+[05/03/13 07:09:45 +0200 emile-ubuntu (14014)] INFO : Finished instrumentation
+[05/03/13 07:10:49 +0200 emile-ubuntu (14036)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:10:49 +0200 emile-ubuntu (14036)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:10:49 +0200 emile-ubuntu (14036)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:10:49 +0200 emile-ubuntu (14036)] INFO : Environment: development
+[05/03/13 07:10:49 +0200 emile-ubuntu (14036)] INFO : No known dispatcher detected.
+[05/03/13 07:10:49 +0200 emile-ubuntu (14036)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:10:49 +0200 emile-ubuntu (14036)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:10:50 +0200 emile-ubuntu (14036)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:10:50 +0200 emile-ubuntu (14036)] INFO : Installing Net instrumentation
+[05/03/13 07:10:50 +0200 emile-ubuntu (14036)] INFO : Finished instrumentation
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : Environment: development
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : No known dispatcher detected.
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : Installing Net instrumentation
+[05/03/13 07:11:21 +0200 emile-ubuntu (14042)] INFO : Finished instrumentation
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : Environment: development
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : No known dispatcher detected.
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : Installing Net instrumentation
+[05/03/13 07:11:30 +0200 emile-ubuntu (14046)] INFO : Finished instrumentation
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : Environment: development
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : No known dispatcher detected.
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : Installing Net instrumentation
+[05/03/13 07:13:06 +0200 emile-ubuntu (14087)] INFO : Finished instrumentation
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : Environment: development
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : No known dispatcher detected.
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : Installing Net instrumentation
+[05/03/13 07:13:15 +0200 emile-ubuntu (14094)] INFO : Finished instrumentation
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : Environment: development
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : No known dispatcher detected.
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : Installing Net instrumentation
+[05/03/13 07:14:10 +0200 emile-ubuntu (14105)] INFO : Finished instrumentation
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : Environment: development
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : No known dispatcher detected.
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : Installing Net instrumentation
+[05/03/13 07:15:38 +0200 emile-ubuntu (14120)] INFO : Finished instrumentation
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : Environment: development
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : No known dispatcher detected.
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : Installing Net instrumentation
+[05/03/13 07:16:01 +0200 emile-ubuntu (14129)] INFO : Finished instrumentation
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : Environment: development
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : No known dispatcher detected.
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : Installing Net instrumentation
+[05/03/13 07:17:11 +0200 emile-ubuntu (14143)] INFO : Finished instrumentation
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : Environment: development
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : No known dispatcher detected.
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : Installing Net instrumentation
+[05/03/13 07:18:11 +0200 emile-ubuntu (14166)] INFO : Finished instrumentation
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : Environment: development
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : Dispatcher: thin
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : Installing Net instrumentation
+[05/03/13 07:19:38 +0200 emile-ubuntu (14232)] INFO : Finished instrumentation
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : Environment: development
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : Dispatcher: thin
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : Installing Net instrumentation
+[05/03/13 07:19:40 +0200 emile-ubuntu (14238)] INFO : Finished instrumentation
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : Environment: development
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : Dispatcher: thin
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : Installing Net instrumentation
+[05/03/13 07:19:51 +0200 emile-ubuntu (14244)] INFO : Finished instrumentation
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : Environment: development
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : Dispatcher: thin
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : Installing Net instrumentation
+[05/03/13 07:20:08 +0200 emile-ubuntu (14251)] INFO : Finished instrumentation
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : Environment: development
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : Dispatcher: thin
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : Installing Net instrumentation
+[05/03/13 07:20:51 +0200 emile-ubuntu (14260)] INFO : Finished instrumentation
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : Environment: development
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : Dispatcher: thin
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : Installing Net instrumentation
+[05/03/13 07:21:07 +0200 emile-ubuntu (14268)] INFO : Finished instrumentation
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : Starting the New Relic agent in "development" environment.
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : Reading configuration from config/newrelic.yml
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : Environment: development
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : Dispatcher: thin
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] WARN : Agent configured not to send data in this environment.
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : Installing Sinatra instrumentation
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : Installing Net instrumentation
+[05/03/13 07:21:33 +0200 emile-ubuntu (14275)] INFO : Finished instrumentation

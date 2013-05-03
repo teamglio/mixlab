@@ -10,8 +10,10 @@ require_relative 'player'
 require_relative 'discovery'
 require_relative 'mxit_user'
 require_relative 'leaderboard'
+require_relative 'leaderboard_entry'
 require_relative 'hint'
 require_relative 'mxit_oauth'
 require_relative 'mxit_user_api'
 
 DataMapper.finalize
+DataMapper.auto_upgrade!
