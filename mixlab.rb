@@ -92,12 +92,7 @@ post '/feedback' do
 end
 
 get '/players' do
-	@players = Player.all
-	File.open('public/players.json','w+') do |file|
-		file.write(@players.to_json)
-	end
-	redirect to 'players.json'		
-	#erb :players, :layout => nil
+	erb Player.all.size.to_s
 end
 
 helpers do
