@@ -17,11 +17,11 @@ configure do
 	  :secret_access_key => ENV['AWS_SECRET']
 	)
 
-	scheduler = Rufus::Scheduler.start_new
+	#scheduler = Rufus::Scheduler.start_new
 
-	scheduler.every '15m' do
-		Leaderboard.build_top_ten
-	end		
+	#scheduler.every '15m' do
+	#	Leaderboard.build_top_ten
+	#end		
 end
 
 before do
