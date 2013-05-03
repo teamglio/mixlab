@@ -1,12 +1,6 @@
 #TODO
 # secure Mxit app client id and secret
 
-require 'sinatra'
-require 'aws-sdk'
-require 'rest-client'
-require 'json'
-require 'rufus-scheduler'
-require 'newrelic_rpm'
 require_relative 'lib/core.rb'
 
 enable :sessions
@@ -15,13 +9,7 @@ configure do
 	AWS.config(
 	  :access_key_id => ENV['AWS_KEY'],
 	  :secret_access_key => ENV['AWS_SECRET']
-	)
-
-	#scheduler = Rufus::Scheduler.start_new
-
-	#scheduler.every '15m' do
-	#	Leaderboard.build_top_ten
-	#end		
+	)		
 end
 
 before do
