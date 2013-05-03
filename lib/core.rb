@@ -3,11 +3,7 @@ require 'data_mapper'
 DataMapper.setup(:default, ENV['DATABASE_URL'])
 #DataMapper.setup(:default, 'postgres://postgres:paashaas@localhost/mixlab')
 
-require 'sinatra'
-require 'aws-sdk'
-require 'rest-client'
-require 'json'
-require 'newrelic_rpm'
+
 require_relative 'element'
 require_relative 'composition'
 require_relative 'data'
