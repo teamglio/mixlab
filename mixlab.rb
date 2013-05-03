@@ -1,6 +1,11 @@
 #TODO
 # secure Mxit app client id and secret
 
+require 'sinatra'
+require 'aws-sdk'
+require 'rest-client'
+require 'json'
+require 'newrelic_rpm'
 require_relative 'lib/core.rb'
 
 enable :sessions
