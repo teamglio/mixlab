@@ -112,6 +112,10 @@ get '/players' do
 	erb Player.all.size.to_s
 end
 
+get '/announcement' do
+	erb :announcement
+end
+
 helpers do
 	def discoveries
 		mxit_user = MxitUser.new(request.env)
