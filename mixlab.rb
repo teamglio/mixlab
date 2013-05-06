@@ -43,15 +43,32 @@ get '/game/:element' do
 		session[:element1] = params[:element]
 		@result = session[:element1] + ' + '
 	else
+		session[:element2] = nil
 		session[:element2] = params[:element]
 
-		response =  Composition.mix(Element.all(:name => session[:element1].to_s).first, Element.all(:name => session[:element2].to_s).first)
+		response =  Composition.mix(Element.first(:name => session[:element1].to_s), Element.first(:name => session[:element2].to_s))
 
 		unless response.nil?
-			@result = "#{session[:element1]} + #{session[:element2]} = <b>#{response.name}</b>"
-			@discovery_status = get_discovery_status(response)
-			player.elements.push(Element.first(:name => response.name))
-			player.save			
+			if response.size == 1
+				@discovery_status = get_discovery_status(response)
+				element = response.first
+				@result = "#{session[:element1]} + #{session[:element2]} = "
+				@result += "<b>#{element.name}</b>"
+				player.elements.push(Element.first(:name => element.name))
+				player.save					
+			else
+				@discovery_status = get_discovery_status(response)				
+				@result = "#{session[:element1]} + #{session[:element2]} = "
+				response.each do |element|
+					unless response.index(element) == response.index(response.last)
+						@result += "<b>#{element.name}</b>" + " & " 
+					else
+						@result += "<b>#{element.name}</b>"
+					end
+				player.elements.push(Element.first(:name => element.name))
+				player.save						
+				end
+			end
 			session[:element1] = nil
 		else
 			@result = session[:element1] + ' + ' + session[:element2] + ' = ' + "<b>nothing</b>"
@@ -107,13 +124,13 @@ helpers do
 		Player.first(:mxit_user_id => mxit_user.user_id)
 	end
 
-	def get_discovery_status(element)
+	def get_discovery_status(response)
 		mxit_user = MxitUser.new(request.env)
 		player = Player.first(:mxit_user_id => mxit_user.user_id)
-		if Discovery.all(:player_id => player.id).elements.first(:name => element.name)
-			"You've already discovered #{element.name}..."
+		if Discovery.all(:player_id => player.id).elements.first(:name => response.first.name)
+			"You've <b style='color:#FF9933;'>already discovered</b> this combination..."
 		else
-			"Well done, you've discovered <b>#{element.name}</b>!"
-		end
+			"Well done, you've discovered a <b style='color:#339900;'>new combination</b>!"
+		end				
 	end
 end

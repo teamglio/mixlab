@@ -10,11 +10,9 @@ class Composition
 
 	def self.mix(element1, element2)
 		if first(primary_element_id: element1.id, secondary_element_id: element2.id)
-			first(primary_element_id: element1.id, secondary_element_id: element2.id).result_element
+			all(primary_element_id: element1.id, secondary_element_id: element2.id).result_element
 		elsif first(primary_element_id: element2.id, secondary_element_id: element1.id)
-			first(primary_element_id: element2.id, secondary_element_id: element1.id).result_element
-		else
-			nil
+			all(primary_element_id: element2.id, secondary_element_id: element1.id).result_element
 		end
 	end
 end

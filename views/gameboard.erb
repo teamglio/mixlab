@@ -7,7 +7,6 @@
 </div>
 <br />
 <div>
-	<b>all</b><br />
 	<% discoveries.each do |discovery| %>
 		<a href='<%= url 'game/' + discovery.element.name %>'><%= discovery.element.name %></a><br />
 	<% end %>
