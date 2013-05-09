@@ -85,12 +85,28 @@ get '/leaderboard/top_ten' do
 	erb :top_ten
 end
 
+get '/account' do
+	erb :account
+end
+
 get '/hint' do
 	erb :hint
 end
 
-get '/help' do
-	erb :help
+get '/news' do
+	erb :news
+end
+
+get '/reset?' do
+	erb "Are you sure you want to reset your game? <b>You will lose all your discoveries!</b><br /><a href='/reset!'>Yes</a> | <a href='/game'>No way</a>"
+end
+
+get '/reset!' do
+	player = get_player
+	player.discoveries.destroy
+	player.elements.push(Element.first(:name => 'water'),Element.first(:name => 'fire'),Element.first(:name => 'earth'),Element.first(:name => 'air'))	
+	player.save
+	erb "Game reset! <a href='/game'>Play again</a>."
 end
 
 get '/feedback' do
@@ -111,10 +127,6 @@ end
 
 get '/players' do
 	erb Player.all.size.to_s
-end
-
-get '/announcement' do
-	erb :announcement
 end
 
 helpers do
