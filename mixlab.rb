@@ -55,7 +55,8 @@ get '/game/:element' do
 				@result = "#{session[:element1]} + #{session[:element2]} = "
 				@result += "<b>#{element.name}</b>"
 				player.elements.push(Element.first(:name => element.name))
-				player.save					
+
+				
 			else
 				@discovery_status = get_discovery_status(response)				
 				@result = "#{session[:element1]} + #{session[:element2]} = "
@@ -65,8 +66,7 @@ get '/game/:element' do
 					else
 						@result += "<b>#{element.name}</b>"
 					end
-				player.elements.push(Element.first(:name => element.name))
-				player.save						
+					player.elements.push(Element.first(:name => element.name))				
 				end
 			end
 			session[:element1] = nil
@@ -76,7 +76,8 @@ get '/game/:element' do
 			@discovery_status = "Woops, that doesn't make anything. Try again."
 		end
 	end
-	
+	player.number_of_discoveries = player.discoveries.size	
+	player.save	
 	erb :gameboard
 end
 
