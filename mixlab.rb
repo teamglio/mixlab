@@ -126,7 +126,8 @@ post '/feedback' do
 end
 
 get '/players' do
-	erb Player.all.size.to_s
+	content_type :json 
+	{:number_of_players => Player.all.size}.to_json
 end
 
 helpers do

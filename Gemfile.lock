@@ -60,7 +60,6 @@ GEM
     json_pure (1.7.7)
     mime-types (1.22)
     multi_json (1.7.2)
-    newrelic_rpm (3.6.1.87)
     nokogiri (1.5.9)
     rack (1.5.2)
     rack-protection (1.5.0)
@@ -82,6 +81,5 @@ DEPENDENCIES
   aws-sdk
   data_mapper
   dm-postgres-adapter
-  newrelic_rpm
   rest-client
   sinatra

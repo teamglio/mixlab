@@ -2,7 +2,6 @@ require 'data_mapper'
 require 'aws-sdk'
 require 'rest-client'
 require 'json'
-require 'newrelic_rpm'
 
 DataMapper.setup(:default, ENV['DATABASE_URL'])
 #DataMapper.setup(:default, 'postgres://postgres:paashaas@localhost/mixlab')
