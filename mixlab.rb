@@ -29,7 +29,7 @@ get '/game' do
 		player = Player.create(:mxit_user_id => mxit_user.user_id)
 		player.elements.push(Element.first(:name => 'water'),Element.first(:name => 'fire'),Element.first(:name => 'earth'),Element.first(:name => 'air'))
 		player.save
-		erb :help
+		erb :gameboard
 	else
 		erb :gameboard	
 	end
