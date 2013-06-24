@@ -118,8 +118,8 @@ post '/feedback' do
 	ses = AWS::SimpleEmailService.new
 	ses.send_email(
 	  :subject => 'MixLab feedback',
-	  :from => 'emile@silvis.co.za',
-	  :to => 'emile@silvis.co.za',
+	  :from => 'mxitappfeedback@glio.co.za',
+	  :to => 'mxitappfeedback@glio.co.za',
 	  :body_text => params['feedback'] + ' - ' + player.mxit_user_id
 	  )
 	erb "Thanks! <a href='/'>Back</a>" 
