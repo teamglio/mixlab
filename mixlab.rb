@@ -3,6 +3,7 @@
 
 require 'sinatra'
 require 'stathat'
+require 'firebase'
 require_relative 'lib/core.rb'
 
 enable :sessions
@@ -11,7 +12,8 @@ configure do
 	AWS.config(
 	  :access_key_id => ENV['AWS_KEY'],
 	  :secret_access_key => ENV['AWS_SECRET']
-	)		
+	)
+	Firebase.base_uri = "https://glio-mxit-users.firebaseio.com/mixlab"				
 end
 
 before do
@@ -30,6 +32,7 @@ get '/game' do
 		player = Player.create(:mxit_user_id => mxit_user.user_id)
 		player.elements.push(Element.first(:name => 'water'),Element.first(:name => 'fire'),Element.first(:name => 'earth'),Element.first(:name => 'air'))
 		player.save
+		Firebase.set(mxit_user.user_id, {:date_joined => Time.now})	
 		erb :gameboard
 	else
 		erb :gameboard	
