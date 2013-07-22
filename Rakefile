@@ -13,7 +13,7 @@ task :migrate_users_to_firebase do
 	Firebase.base_uri = "https://glio-mxit-users.firebaseio.com/mixlab"
 	puts "Starting..."
 	Player.all.each do |user|
-		Firebase.set(user.mxit_user_id,{:date_joined => user.date_joined})
+		Firebase.set(user.mxit_user_id,{:date_joined => Time.now})
 	end
 	puts "Done"
 end
