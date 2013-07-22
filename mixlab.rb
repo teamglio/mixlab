@@ -2,6 +2,7 @@
 # secure Mxit app client id and secret
 
 require 'sinatra'
+require 'stathat'
 require_relative 'lib/core.rb'
 
 enable :sessions
@@ -78,6 +79,7 @@ get '/game/:element' do
 	end
 	player.number_of_discoveries = player.discoveries.size	
 	player.save	
+	StatHat::API.ez_post_count("mixlab - combos played", "emile@silvis.co.za", 1)	
 	erb :gameboard
 end
 
